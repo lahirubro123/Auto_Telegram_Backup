@@ -15,10 +15,10 @@ read path
 echo What is Your Telegram - Phone number, username, Bot invite link or use “me” to send to -saved messages  ?
 read link
 echo Upload Time -use Crontab Format
-read time
+read timez
 
 
-(crontab -l; echo "$time sudo telegram-upload --to $link --caption $description $path") | sort -u | crontab -
+(crontab -l; echo "$timez sudo telegram-upload --to $link --caption $description $path") | sort -u | crontab -
 telegram-upload --to $link --caption $description $path
 
 echo Script Done !!
