@@ -4,8 +4,6 @@
 
 # Install  packages
 echo script from Bunny_LK
-sleep 5
-
 
 apt-get update
 apt-get upgrade
