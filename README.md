@@ -1,5 +1,5 @@
 # Auto_Telegram_Backup
 
 
-cronjob example -
+cronjob example - /n
 0 * * * * "hourly backup"
