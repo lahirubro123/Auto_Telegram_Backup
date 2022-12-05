@@ -5,6 +5,7 @@
 echo script from Bunny_LK
 apt-get update
 apt-get upgrade
+sudo apt install python3-pip
 sudo pip3 install -U telegram-upload
 
 # Creating Script
