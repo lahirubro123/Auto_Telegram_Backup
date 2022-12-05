@@ -1,16 +1,6 @@
 #!/usr/bin/env bash
 
-#loading Animation
-sleep 5 &
-pid=$!frames="/ | \\ -"while kill -0 $pid 2&>1 > /dev/null;
-do
-    for frame in $frames;
-    do
-        printf "\r$frame Loading..." 
-        sleep 0.5
-    done
-done
-printf "\n"
+
 
 # Install  packages
 echo script from Bunny_LK
