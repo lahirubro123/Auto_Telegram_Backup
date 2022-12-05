@@ -8,13 +8,13 @@ apt-get upgrade
 sudo pip3 install -U telegram-upload
 
 # Creating Script
-echo Hello, What Is Your Backup Description -File Description ?
+echo  What Is Your Backup File Description ?
 read description
-echo what is your File Path -/path/path/text.txt ?
+echo what is your File Path '/path/path/text.txt' ?
 read path
-echo What is Your Telegram - Phone number, username, Bot invite link or use “me” to send to -saved messages  ?
+echo What is Your Telegram - Phone number, username, Bot invite link or use “me” to send to 'saved messages'  ?
 read link
-echo Upload Time -use Crontab Format
+echo Upload Time ? 'use Crontab Format'
 read timez
 
 
